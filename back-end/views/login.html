@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - Abdan Hafidz Portal</title>
+    <link rel="stylesheet" href="style/styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="scripts/scripts.js"></script>
+</head>
+<body>
+    <!-- Loading Indicator -->
+    <div class="loading" id="loadingIndicator" style="display: none;">
+        <div class="loading-spinner"></div>
+    </div>
+
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <nav>
+                <div class="logo">Abdan Hafidz Portal</div>
+                <div class="nav-links" id="navLinks">
+                    <!-- Links will be dynamically added based on auth state -->
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Login Page -->
+    <section class="auth-section">
+        <div class="container">
+            <div class="auth-container">
+                <h2 class="auth-title">Login to Your Account</h2>
+                <div id="loginAlert" style="display: none;"></div>
+                <form id="loginForm">
+                    <div class="form-group">
+                        <label for="loginEmail">Email Address</label>
+                        <input type="email" class="form-control" id="loginEmail" placeholder="Enter your email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="loginPassword">Password</label>
+                        <input type="password" class="form-control" id="loginPassword" placeholder="Enter your password" required>
+                    </div>
+                    <button type="submit" class="btn" style="width: 100%;">Login</button>
+                    <div class="form-footer">
+                        <p>Don't have an account? <a href="register.html">Register Now</a></p>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Abdan Hafidz Portal. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        $(document).ready(function() {
+            // Check if user is already logged in
+            if (isLoggedIn()) {
+                window.location.href = 'profile.html';
+            }
+            
+            // Login Form Submission
+            $('#loginForm').on('submit', function(e) {
+                e.preventDefault();
+                const email = $('#loginEmail').val();
+                const password = $('#loginPassword').val();
+                login(email, password);
+            });
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,6 @@
+.env
+vendor/
+quzuu-be.exe
+.qodo
+.error
+logs/
