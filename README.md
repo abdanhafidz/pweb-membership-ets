@@ -3,8 +3,17 @@
 - [The Website Result](https://abdanhafidz.com/membership)
 - [API Endpoint Huggingface](https://huggingface.co/spaces/lifedebugger/pweb-api-ets)
 - [API Documentation](https://documenter.getpostman.com/view/13117366/2sB2j3BBjT)
-- [Demonstration Video](https://youtube.com/)
+- [Demonstration Video]([https://youtube.com/](https://www.youtube.com/watch?v=oWdKkcFUCRs))
 ## Project Overview
+![image](https://github.com/user-attachments/assets/daa47739-7af2-4a0a-b558-6fa49452c17f)
+![image](https://github.com/user-attachments/assets/d204b2d7-c7cd-435c-b73a-6b17b3a8342f)
+![image](https://github.com/user-attachments/assets/8d25e229-3e3c-4ce4-98af-e3da40f0592b)
+![image](https://github.com/user-attachments/assets/fda6e210-dfe5-4ba9-b341-852a07895e1f)
+![image](https://github.com/user-attachments/assets/695a7186-a79e-422f-8984-e58940dbdcf1)
+![image](https://github.com/user-attachments/assets/13d4e056-2890-4957-9ec7-ad4022bfbc40)
+![image](https://github.com/user-attachments/assets/cccd86fc-fa9b-4c9b-8ce6-d308e2c782c1)
+![image](https://github.com/user-attachments/assets/693997a8-84a3-47b5-829a-ad43330a8232)
+![image](https://github.com/user-attachments/assets/853844ee-4d5f-4660-bfed-2c6b7a02525c)
 
 The JMK48 Membership Area is a comprehensive web application designed to manage member registration, authentication, and profile management. Built using modern technologies and following microservices architecture, this application provides a secure and scalable solution for handling user membership functionalities.
 
