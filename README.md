@@ -182,14 +182,12 @@ flowchart TD
     Git["GitHub Repository"]
     Actions["GitHub Actions"]
     HF["Hugging Face Space"]
-    BE["Backend Deployment"]
     DB[(PostgreSQL via Supabase)]
     
     Dev -->|Push code| Git
     Git -->|Trigger workflow| Actions
     Actions -->|Build & Test| Actions
-    Actions -->|Deploy API| HF
-    Actions -->|Deploy Backend API| BE
+    Actions -->|Deploy Backend API| HF
     HF -->|Connect to| DB
     
     classDef dev fill:#f9f,stroke:#333,stroke-width:2px;
