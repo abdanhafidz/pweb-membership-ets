@@ -1,6 +1,6 @@
 # JMK48 Membership Area - Technical Documentation
 # Please Check This Out!
-- [The Website Result](https://abdanhafidz.com/jmk48-membership)
+- [The Website Result](https://abdanhafidz.com/pweb-ets/membership)
 - [API Endpoint Huggingface](https://huggingface.co/spaces/lifedebugger/pweb-api-ets)
 - [API Documentation](https://documenter.getpostman.com/view/13117366/2sB2j3BBjT)
 - [Demonstration Video](https://youtube.com/)
