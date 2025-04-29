@@ -182,16 +182,15 @@ flowchart TD
     Git["GitHub Repository"]
     Actions["GitHub Actions"]
     HF["Hugging Face Space"]
-    FE["Frontend Deployment"]
+    BE["Backend Deployment"]
     DB[(PostgreSQL via Supabase)]
     
     Dev -->|Push code| Git
     Git -->|Trigger workflow| Actions
     Actions -->|Build & Test| Actions
     Actions -->|Deploy API| HF
-    Actions -->|Deploy frontend| FE
+    Actions -->|Deploy Backend API| BE
     HF -->|Connect to| DB
-    FE -->|API requests| HF
     
     classDef dev fill:#f9f,stroke:#333,stroke-width:2px;
     classDef repo fill:#ff9,stroke:#333,stroke-width:2px;
@@ -202,7 +201,7 @@ flowchart TD
     class Dev dev;
     class Git repo;
     class Actions ci;
-    class HF,FE deploy;
+    class HF,BE deploy;
     class DB db;
 ```
 
