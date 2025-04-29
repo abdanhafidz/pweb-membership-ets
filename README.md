@@ -3,7 +3,7 @@
 - [The Website Result](https://abdanhafidz.com/membership)
 - [API Endpoint Huggingface](https://huggingface.co/spaces/lifedebugger/pweb-api-ets)
 - [API Documentation](https://documenter.getpostman.com/view/13117366/2sB2j3BBjT)
-- [Demonstration Video]([https://youtube.com/](https://www.youtube.com/watch?v=oWdKkcFUCRs))
+- [Demonstration Video](https://www.youtube.com/watch?v=oWdKkcFUCRs)
 ## Project Overview
 ![image](https://github.com/user-attachments/assets/daa47739-7af2-4a0a-b558-6fa49452c17f)
 ![image](https://github.com/user-attachments/assets/d204b2d7-c7cd-435c-b73a-6b17b3a8342f)
