@@ -1,6 +1,7 @@
 # JMK48 Membership Area - Technical Documentation
 # Please Check This Out!
 - [The Website Result](https://abdanhafidz.com/membership)
+- [The Website Presentation Slide]([https://abdanhafidz.com/membership](https://drive.google.com/drive/folders/1Uver-HioyMZVfsXq7z-5NoQcv5peo6-q))
 - [API Endpoint Huggingface](https://huggingface.co/spaces/lifedebugger/pweb-api-ets)
 - [API Documentation](https://documenter.getpostman.com/view/13117366/2sB2j3BBjT)
 - [Demonstration Video](https://www.youtube.com/watch?v=oWdKkcFUCRs)
